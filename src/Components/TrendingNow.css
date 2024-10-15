@@ -1,0 +1,97 @@
+.trending-now-container {
+    margin: 20px;
+    color: white;
+  }
+  
+  .trending-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .trending-header h2 {
+    font-size: 24px;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .filters select {
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .movie-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .movie-card {
+    position: relative;
+    min-width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #111;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .movie-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .movie-info h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .movie-info h4 {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .movie-info span {
+    font-size: 14px;
+    color: #ff0000;
+  }
+  
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .right-btn {
+    right: 0;
+  }
+  
+  .left-btn {
+    left: 0;
+  }
+  
